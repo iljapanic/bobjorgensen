@@ -29,15 +29,15 @@ h1, h2, h3, h4 {
 
 h1 {
 	margin-top: 0;
-	font-size: 3.157em;
-}
-
-h2 {
 	font-size: 2.369em;
 }
 
-h3 {
+h2 {
 	font-size: 1.777em;
+}
+
+h3 {
+	font-size: 1.677em;
 }
 
 h4 {
@@ -62,7 +62,7 @@ small, .font-small {
 
 /* layout */
 .l-grid {
-	max-width: 960px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 1.5%;
 }
@@ -223,7 +223,7 @@ small, .font-small {
 
 .section-title {
 	margin-top: 0;
-	margin-bottom: 1.2rem;
+	margin-bottom: 1.5rem;
 	border-bottom: 3px solid #ccc;
 	padding-bottom: 0.215rem;
 	text-transform: uppercase;
@@ -238,7 +238,7 @@ small, .font-small {
 
 /* item */
 .item {
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 }
 
 .item-title {
@@ -257,6 +257,23 @@ small, .font-small {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
+}
+
+.item-body {
+	margin-top: 0.45rem;
+}
+
+.item-body p:first-of-type {
+	margin-top: 0;	
+}
+
+/* footer */
+.footer {
+	text-align: center;
+	font-size: 0.95em;
+	font-style: italic;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
 }
 
 
@@ -281,6 +298,11 @@ small, .font-small {
 		float: left;
 		width: 70%;
 		padding-left: 5%;
+	}
+
+	.item-date {
+		margin-top: 1rem;
+		float: right;
 	}
 
 }
