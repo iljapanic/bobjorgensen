@@ -75,16 +75,10 @@ small, .font-small {
 	width: 100%;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+.clearfix {
+    overflow: auto;
+	zoom: 1;
 }
-
-.clearfix:after {
-    clear: both;
-}
-
 
 /* header */
 .header {
