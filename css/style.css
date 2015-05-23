@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background-color: red;
+	background-color: #ECECEC;
 	color: #333;
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
@@ -23,6 +23,7 @@ p {
 h1, h2, h3, h4 {
 	margin: 1.414em 0 0;
 	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.2;
 }
 
@@ -47,6 +48,17 @@ small, .font-small {
 	font-size: 0.75em;
 }
 
+/* global */
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 
 /* layout */
 .l-grid {
@@ -99,6 +111,15 @@ small, .font-small {
 }
 
 /* sidebar */
+.sidebar-title {
+	margin-top: 1em;
+	font-size: 1.777em;
+}
+
+.sidebar-subtitle {
+	margin-top: 0.2em;
+	font-size: 1.333em;
+}
 
 .button {
 	display: block;
@@ -112,13 +133,81 @@ small, .font-small {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 0.5rem;
-	font-family: "arial";
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
 	max-width: 85%;
 }
 
 .button:hover {
 	background-color: #1F3A93;
 	transition: all 0.5s;
+}
+
+.contact-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.contact-list li {
+	margin-bottom: 0.75rem;
+}
+
+.contact-list a {
+	text-decoration: none;
+	color: #333;
+}
+
+.contact-list i {
+	margin-right: 0.5rem;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
+.social-icons {
+	list-style-type: none;
+	padding: 0;
+}
+
+.social-icons li {
+	font-size: 2.25em;
+	display: inline;
+}
+
+.social-icons a {
+	text-decoration: none;
+	color: #333;
+}
+
+.facebook:hover {
+	color: #2f4b93;
+}
+
+.twitter:hover {
+	color: #00bdef;
+}
+
+.google:hover {
+	color: #2d2d2d;
+}
+
+.linkedin:hover {
+	color: #0072b5;
+}
+
+.skills-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.skills-list li {
+	display: inline-block;
+	font-size: 0.9em;
+	background-color: #ccc;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.5rem;
+	margin-right: 0.25rem;
+	margin-bottom: 0.5rem;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* main */
@@ -129,7 +218,45 @@ small, .font-small {
 
 /* section */
 .section {
-	margin-bottom: 1.5rem;
+	margin-bottom: 3.5rem;
+}
+
+.section-title {
+	margin-top: 0;
+	margin-bottom: 1.2rem;
+	border-bottom: 3px solid #ccc;
+	padding-bottom: 0.215rem;
+	text-transform: uppercase;
+	font-size: 1.777em;
+}
+
+.section-icon {
+	margin-right: 0.5rem;
+	font-size: 1.35em;
+}
+
+
+/* item */
+.item {
+	margin-bottom: 2rem;
+}
+
+.item-title {
+	margin-top: 0;
+	font-weight: normal;
+}
+
+.item-date {
+	margin-left: 0.5rem;
+	font-size: 0.5em;
+	vertical-align: middle;
+	color: #777;
+}
+
+.item-subtitle {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
 }
 
 
